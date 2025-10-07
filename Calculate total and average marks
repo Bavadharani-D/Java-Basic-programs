@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner (System.in);
+      String a = sc.next();
+      int s1 = sc.nextInt();
+      int s2 = sc.nextInt();
+      int s3 = sc.nextInt();
+      int s4 = sc.nextInt();
+      int s5 = sc.nextInt();
+      int sum = s1+s2+s3+s4+s5;
+      double avg = sum/5.0;
+      
+      System.out.println("Student Name: "+a);
+      System.out.println("Total Marks: "+sum);
+      System.out.print("Average Marks: ");
+      System.out.printf("%.2f\n",avg);
+  }
+}
